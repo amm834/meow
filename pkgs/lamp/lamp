@@ -2,16 +2,7 @@
 
 trap 'stop' 2
 
-#=== DEVELOPER INFORMATION ----------------------------------------------
-# @author      -> Aung Myat Moe (@amm834)
-# @lincence    -> MIT
-# Report or Feeback via -
-#                      GitHub   : amm834
-#                      Facebook : aungmyatmoe834
-#                      LinkIn   : AungMyatMoe
-#-----------------------------------------------------------------------
-
-__ScriptVersion="1.0.0"
+__ScriptVersion="1.1.0"
 
 #-----------------------------------------------------------------------
 #  Check the operation system
@@ -43,6 +34,7 @@ function usage ()
   
    start      Start all servers
    stop       Stop all servers
+   restart    Restart all servers
    
    ekill      Kill all this application if servers are crashed
   
@@ -115,9 +107,21 @@ function checkConnection(){
     fi
 }
 
+function restartServers(){
+    if [[ !$( apachectl restart ) ]]; then
+    
+        apachectl restart
+        echo -e "\e[41m Servers Are Restarted \e[0m"
+
+        exit 1
+    fi
+}
+
 function installDeps(){
     echo installed
 }
+
+
 
 #-----------------------------------------------------------------------
 #  Handle command line arguments
@@ -141,13 +145,20 @@ shift 1
     checkStandardServers
     startAllServers
     ;;
+    
        sto*     )
        stop
        ;;
+       
+       rest*)
+       restartServers
+       ;;
+       
         ekill   )
         # kill if application is crashed
     emergencyKill
     ;;
+    
         inst*)
         checkConnection
         installDeps

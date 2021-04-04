@@ -25,7 +25,6 @@ function usage ()
   Usage :  meow [options] <arguments>
   
   🐈🐾 - meow is a friendly package manager ✨
-
   Options:
   
   -h|help                 Display this message
