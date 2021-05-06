@@ -1,0 +1,12 @@
+{
+  "name": "lampp"
+  "version": "1.0.0",
+  "homepage": "http://mywebsite.com",
+  "maintainer": "@Hax4us",
+  "description": "my description",
+  "arch": "all",
+  "depends": ["bash"],
+  "files" :{
+    "lamp":"bin/lamp"
+  }
+}
