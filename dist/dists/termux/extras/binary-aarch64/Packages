@@ -1,0 +1,15 @@
+Package: mongodb
+Architecture: aarch64
+Installed-Size: 173988
+Maintainer: Termux members @termux
+Version: 4.2.9
+Homepage: https://github.com/mongodb/mongo
+Depends: libicu, libcurl, libpcap
+Description: mongo db
+Filename: dists/termux/extras/binary-aarch64/mongodb_4.2.9_aarch64.deb
+Size: 40938294
+MD5Sum: a20ebf85fb8ad71b3649c50955567034
+SHA1: 3351fe3a81bec39eb600dd319ac1551bd7cec988
+SHA256: 7bcfd46bdcbe15a9c04c008e6c0b0aab9b101b75c6d2eaff36a98dd5cee03478
+SHA512: 4876e88a9a3c0a22ec0ad04399870b394cc931603b74a16fb030c8de604afe6a13dc34080e7eab3ac4711d677c0ae04488e40556ae10c7cd934d644c9d5742d9
+
