@@ -1,0 +1,12 @@
+{
+    "name": "silicon",
+    "version": "1.0.0",
+    "homepage": "http://github.com/amm834",
+    "maintainer": "@amm834",
+    "description": "my description",
+    "arch": "aarch64",
+    "depends": ["bash"],
+    "files" : {
+        "silicon":"bin/silicon"
+    }
+}
