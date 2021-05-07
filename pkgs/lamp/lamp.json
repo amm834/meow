@@ -4,7 +4,7 @@
     "homepage": "http://github.com/amm834/meow",
     "maintainer": "@amm834",
     "description": " 🐘👀 - lamp is a web servers manager ✨",
-    "arch": "all",
+    "arch":"i686",
     "depends": ["bash"],
     "files" : {
         "lamp":"bin/lamp"

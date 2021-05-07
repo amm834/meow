@@ -1,0 +1,14 @@
+Package: lamp
+Version: 1.1.0
+Architecture: i686
+Maintainer: @amm834
+Description:  🐘👀 - lamp is a web servers manager ✨
+Homepage: http://github.com/amm834/meow
+Depends: bash
+Filename: dists/termux/extras/binary-i686/lamp_1.1.0_i686.deb
+Size: 2064
+MD5Sum: 44997583d6d267254f9beeff345906b0
+SHA1: d167f6356cd912226a50da5bb591f8ceb2b94453
+SHA256: 97f9a13c496a6378efbd1186b9936b4dd58768ba908949d96d0a759356ece834
+SHA512: 68d60a7cee545e429b94ce86132bdefc3b2af2e65c453783933a0b0b24783394462d69bb51c8f2206c405eca1bbe9a836b02254acb89e6928975c6f0c635d8ad
+

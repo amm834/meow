@@ -1,3 +1,17 @@
+Package: lamp
+Version: 1.1.0
+Architecture: aarch64
+Maintainer: @amm834
+Description:  🐘👀 - lamp is a web servers manager ✨
+Homepage: http://github.com/amm834/meow
+Depends: bash
+Filename: dists/termux/extras/binary-aarch64/lamp_1.1.0_aarch64.deb
+Size: 2064
+MD5Sum: 6d9ef0fe842eff3cbe6c419892f46f24
+SHA1: b6147165ce8c458c2291a87fde059c40166f3ae1
+SHA256: c5e124520321c48604cabfceaad097913a06a12f05480e1e1672712cca993a99
+SHA512: 1ebaaaa19f1ddb43033223dc068fd83520150650bffcd8a9a7aa23636d463b0c4fd65df7e7f17805cdffbb4456d411f5b3aed5ba4917bf4438980c942900cfd2
+
 Package: mongodb
 Architecture: aarch64
 Installed-Size: 173988
