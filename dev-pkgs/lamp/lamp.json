@@ -1,0 +1,12 @@
+{
+    "name": "lamp",
+    "version": "1.1.0",
+    "homepage": "http://github.com/amm834/meow",
+    "maintainer": "@amm834",
+    "description": " 🐘👀 - lamp is a web servers manager ✨",
+    "arch": "all",
+    "depends": ["bash"],
+    "files" : {
+        "lamp":"bin/lamp"
+    }
+}
