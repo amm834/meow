@@ -3,7 +3,7 @@ Version: 1
 Architectures: aarch64
 Description: termux repository
 Suite: termux
-Date: Fri, 07 May 2021 00:04:05 UTC
+Date: Fri, 07 May 2021 00:08:09 UTC
 MD5Sum:
  32557d917467d6c24fd7e339dbd77c69 1131 extras/binary-aarch64/Packages
  410febee3afd8ad34bd2039241ebbf00 724 extras/binary-aarch64/Packages.xz
