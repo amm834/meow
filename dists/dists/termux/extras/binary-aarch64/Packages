@@ -12,6 +12,20 @@ SHA1: b6147165ce8c458c2291a87fde059c40166f3ae1
 SHA256: c5e124520321c48604cabfceaad097913a06a12f05480e1e1672712cca993a99
 SHA512: 1ebaaaa19f1ddb43033223dc068fd83520150650bffcd8a9a7aa23636d463b0c4fd65df7e7f17805cdffbb4456d411f5b3aed5ba4917bf4438980c942900cfd2
 
+Package: lamp
+Version: 1.1.1
+Architecture: aarch64
+Maintainer: @amm834
+Description:  🐘👀 - lamp is a web servers manager ✨
+Homepage: http://github.com/amm834/meow
+Depends: bash
+Filename: dists/termux/extras/binary-aarch64/lamp_1.1.1_aarch64.deb
+Size: 2064
+MD5Sum: d34eceeb93c3b463dadf49580afb2ec6
+SHA1: 540e95d716ea263021951f9c9af27edb90a3e405
+SHA256: fb641d7fc060b293fd15753f927f7bac90baed2f7e3456b0edeeb7be2df26a8c
+SHA512: 9e8c839c93eff87714a6770f927f822a9641eb1c0c5f2ff6c42513dcc937f7391f8e293e4cb5adfef1fe7cb4aac1101af709e404af1e4f500ec364efeae830de
+
 Package: mongodb
 Architecture: aarch64
 Installed-Size: 173988

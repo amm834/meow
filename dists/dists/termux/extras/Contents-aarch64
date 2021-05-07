@@ -1,4 +1,5 @@
 data/data/com.termux/files/usr/bin/lamp                                          lamp
+data/data/com.termux/files/usr/bin/lamp                                          lamp
 data/data/com.termux/files/usr/bin/mongod                                        mongodb
 data/data/com.termux/files/usr/bin/mongo                                         mongodb
 data/data/com.termux/files/usr/bin/bsondump                                      mongodb
