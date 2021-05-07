@@ -16,3 +16,13 @@ bash setup.sh
 ```sh
 apt install lamp
 ```
+
+
+# Available Packages 📦
+
+This apt mirror will support old version, so we can install packages by version numbers.
+
+**Example**
+```sh
+apt install lamp=1.1.0
+```
