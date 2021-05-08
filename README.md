@@ -1,6 +1,6 @@
 # meow
 
-`meow` is just a name because I haven no idea 💡 for repo name.
+`meow` is just a name because I have no idea -💡 for repo name.
 
 
 # Set Up
