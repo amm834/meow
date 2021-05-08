@@ -6,8 +6,7 @@
 # Set Up
 
 ```sh
-curl -LO https://raw.githubusercontent.com/amm834/meow/main/setup.sh
-bash setup.sh
+curl -L https://raw.githubusercontent.com/amm834/meow/main/setup.sh | bash
 ```
 
 # Downloading The Packages
