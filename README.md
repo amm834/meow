@@ -16,7 +16,6 @@ curl -L https://raw.githubusercontent.com/amm834/meow/main/setup.sh | bash
 apt install lamp
 ```
 
-
 # Available Packages 📦
 
 This apt mirror will support old version, so we can install packages by version numbers.
@@ -25,3 +24,11 @@ This apt mirror will support old version, so we can install packages by version 
 ```sh
 apt install lamp=1.1.0
 ```
+
+```bash
+apt clean
+apt update
+apt install lamp
+```
+
+https://github.com/termux/termux-create-package/issues/28#issuecomment-835250829
