@@ -17,32 +17,32 @@ curl -L https://raw.githubusercontent.com/amm834/meow/main/setup.sh | bash
 PACKAGES="zsh" # ZSH Shell
 
 # Core
-PACKAGES+="pkg-config" 
-PACKAGES+="tar"
-PACKAGES+="file"
+PACKAGES+=" pkg-config" 
+PACKAGES+=" tar"
+PACKAGES+=" file"
 
 # Programming Languages That I'm Using
-PACKAGES+="php"
-PACKAGES+="php-apache" # Apache module of  PHP
-PACKAGES+="mariadb" # MySQL database
+PACKAGES+=" php"
+PACKAGES+=" php-apache" # Apache module of  PHP
+PACKAGES+=" mariadb" # MySQL database
 
-PACKAGES+="clang" # C/C++
-PACKAGES+="make" # For Make File System Programming Languages
-PACKAGES+="cmake" # For C
+PACKAGES+=" clang" # C/C++
+PACKAGES+=" make" # For Make File System Programming Languages
+PACKAGES+=" cmake" # For C
 
-PACKAGES+="rust" # Rust
+PACKAGES+=" rust" # Rust
 
-PACKAGES+="nodejs" # JS Run Time
-PACKAGES+="mongodb" # NoSql DB
+PACKAGES+=" nodejs" # JS Run Time
+PACKAGES+=" mongodb" # NoSql DB
 
-PACKAGES+="python"
+PACKAGES+=" python"
 
-PACKAGES+="ecj" # To compile java source code
-PACKAGES+="dx" # VM for Java
+PACKAGES+=" ecj" # To compile java source code
+PACKAGES+=" dx" # VM for Java
 
 # Services
 
-PACKAGES+="lamp"
+PACKAGES+=" lamp"
 
 apt update
 apt dist-upgrade -y
