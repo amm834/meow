@@ -8,10 +8,10 @@
 #apt update && apt upgrade
 
 # Setup The ItsPpintless Repo
-curl -L https://its-pointless.github.io/setup-pointless-repo.sh | bash
+#curl -L https://its-pointless.github.io/setup-pointless-repo.sh | bash
 
 # Setup The Meow Repo
-curl -L https://raw.githubusercontent.com/amm834/meow/main/setup.sh | bash
+#curl -L https://raw.githubusercontent.com/amm834/meow/main/setup.sh | bash
 
 # Default Shell
 PACKAGES="zsh " # ZSH Shell
