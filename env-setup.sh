@@ -5,7 +5,7 @@
 ###################
 
 # upgrade the index of packages 
-apt update && apt upgrade
+#apt update && apt upgrade
 
 # Setup The ItsPpintless Repo
 curl -L https://its-pointless.github.io/setup-pointless-repo.sh | bash
@@ -14,7 +14,7 @@ curl -L https://its-pointless.github.io/setup-pointless-repo.sh | bash
 curl -L https://raw.githubusercontent.com/amm834/meow/main/setup.sh | bash
 
 # Default Shell
-PACKAGES="zsh" # ZSH Shell
+PACKAGES="zsh " # ZSH Shell
 
 # Core
 PACKAGES+=" pkg-config" 
@@ -44,8 +44,8 @@ PACKAGES+=" dx" # VM for Java
 
 PACKAGES+=" lamp"
 
-apt update
-apt dist-upgrade -y
+#apt update
+#apt dist-upgrade -y
 apt install -y $PACKAGES
 
 curl -L https://raw.githubusercontent.com/amm834/meow/main/httpd.conf > $PREFIX/etc/apache2/httpd.conf
