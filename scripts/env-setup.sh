@@ -48,6 +48,8 @@ PACKAGES+=" lamp"
 #apt dist-upgrade -y
 apt install -y $PACKAGES
 
-curl -L https://raw.githubusercontent.com/amm834/meow/main/httpd.conf > $PREFIX/etc/apache2/httpd.conf
+URL="https://raw.githubusercontent.com/amm834/meow/main/scripts"
 
-curl -L https://raw.githubusercontent.com/amm834/meow/main/php.conf > $PREFIX/etc/apache2/conf.d/php.conf
+curl -L $URL/httpd.conf > $PREFIX/etc/apache2/httpd.conf
+
+curl -L $URL/scripts/configs/php/php.conf > $PREFIX/etc/apache2/conf.d/php.conf
