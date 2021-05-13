@@ -5,21 +5,22 @@
 ###################
 
 # upgrade the index of packages 
-#apt update && apt upgrade
+apt update && apt upgrade -y
 
 # Setup The ItsPpintless Repo
-#curl -L https://its-pointless.github.io/setup-pointless-repo.sh | bash
+curl -L https://its-pointless.github.io/setup-pointless-repo.sh | bash
 
 # Setup The Meow Repo
-#curl -L https://raw.githubusercontent.com/amm834/meow/main/setup.sh | bash
+curl -L https://raw.githubusercontent.com/amm834/meow/main/setup.sh | bash
 
 # Default Shell
-PACKAGES="zsh " # ZSH Shell
+PACKAGES="zsh" # ZSH Shell
 
 # Core
 PACKAGES+=" pkg-config" 
 PACKAGES+=" tar"
 PACKAGES+=" file"
+PACKAGES+=" lsd"
 
 # Programming Languages That I'm Using
 PACKAGES+=" php"
@@ -48,8 +49,10 @@ PACKAGES+=" lamp"
 #apt dist-upgrade -y
 apt install -y $PACKAGES
 
-URL="https://raw.githubusercontent.com/amm834/meow/main/scripts"
+# Base URL
+URL="https://raw.githubusercontent.com/amm834/meow/main"
 
-curl -L $URL/httpd.conf > $PREFIX/etc/apache2/httpd.conf
+# Download Config Settings
+curl -L $URL/scripts/configs/php/httpd.conf > $PREFIX/etc/apache2/httpd.conf
 
 curl -L $URL/scripts/configs/php/php.conf > $PREFIX/etc/apache2/conf.d/php.conf
